@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="forms.css" />
+  </head>
+  <body>
+    <form action="thankyou.html">
+      <img src="congo.png" alt="" />
+      <div class="main">
+        <h1>Congratulations!!!</h1>
+        <hr />
+        <p>
+          Fill in your details now to claim your price.
+        </p>
+        <h4 style="color: red;">* Required</h4>
+      </div>
+
+      <div class="form-section">
+        <h6>Your Name <span style="color: red;">*</span></h6>
+        <input type="text" name="name" required />
+      </div>
+
+      <div class="form-section">
+        <h6>Your Age <span style="color: red;">*</span></h6>
+        <input type="number" name="age" required />
+      </div>
+
+      <div class="form-section">
+        <h6>Your Address <span style="color: red;">*</span></h6>
+        <input type="text" name="address" required />
+      </div>
+
+      <div class="form-section">
+        <h6>Phone Number <span style="color: red;">*</span></h6>
+        <input type="tel" name="phone" required />
+      </div>
+
+      <div class="form-section">
+        <h6>Email Address <span style="color: red;">*</span></h6>
+        <input type="email" name="email" required />
+      </div>
+
+      <div class="form-section">
+        <h6>Preferences <span style="color: red;">*</span></h6>
+        <select name="preference" required>
+          <option value="">Choose</option>
+          <option value="Bank Transfer">Bank Transfer</option>
+          <option value="Gift Card">Gift Card</option>
+        </select>
+      </div>
+
+      <div class="submit">
+        <button type="submit">Submit</button>
+      </div>
+
+      <p class="rule">Never submit passwords through Google Forms</p>
+      <p class="policy">
+        This content is neither created nor endorsed by Google.
+        <a href="#">Report Abuse.</a> <a href="#">Terms of condition.</a>
+        <a href="#">Privacy Policy.</a>
+        <h1 class="Google" style="color: grey; font-weight: 550; width: 50vw;">Google Forms</h1>
+      </p>
+    </form>
+  </body>
+</html>
