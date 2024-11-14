@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You!</title>
+  <title>Warning Message</title>
   <style>
     body {
       display: flex;
@@ -13,14 +13,25 @@
       margin: 0;
       background-color: #f0f0f0;
     }
+
+    
+    @keyframes pop {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2); 
+      }
+    }
+
     img {
-      max-width: 100%;
-      height: auto;
+      width: 100vw;
+      animation: pop 0.6s 10; 
     }
   </style>
 </head>
 <body>
-  <img src="image.jpg" alt="Be carefull!">
+  <img src="image.jpg" alt="Warning!">
   <audio autoplay>
     <source src="alert.mp3" type="audio/mp3">
   </audio>
